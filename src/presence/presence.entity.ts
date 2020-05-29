@@ -8,7 +8,7 @@ export class Presence {
   /**
    * Auto-generated ID per presence record.
    */
-  @PrimaryGeneratedColumn('increment', {type: 'int4'})
+  @PrimaryGeneratedColumn('increment', { type: 'int4' })
   id: number;
 
   /**
@@ -16,7 +16,7 @@ export class Presence {
    * @example 388191157869477888n
    */
   @Index()
-  @Column({type: 'bigint'})
+  @Column({ type: 'bigint' })
   bot_id: bigint;
 
   /**
