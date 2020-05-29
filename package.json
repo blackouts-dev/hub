@@ -64,6 +64,7 @@
   "private": true,
   "scripts": {
     "build": "nest build",
+    "deploy": "semantic-release",
     "docs": "compodoc -p tsconfig.json",
     "docs:dev": "compodoc -p tsconfig.json -s --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
