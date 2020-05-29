@@ -1,40 +1,40 @@
 {
-	"plugins": [
-		"@semantic-release/commit-analyzer",
-		"@semantic-release/release-notes-generator",
-		"@semantic-release/github",
-		[
-			"@semantic-release/exec",
-			{
-				"prepareCmd": "yarn version ${nextRelease.version}"
-			}
-		],
-		[
-			"@semantic-release/exec",
-			{
-				"prepareCmd": "docker build -t hub ."
-			}
-		],
-		[
-			"@eclass/semantic-release-docker",
-			{
-				"baseImageName": "hub",
-				"registries": [
-					{
-						"url": "docker.pkg.github.com",
-						"imageName": "docker.pkg.github.com/blackout-dev/hub/hub",
-						"user": "GITHUB_ACTOR",
-						"password": "GITHUB_TOKEN"
-					}
-				]
-			}
-		],
-		[
-			"semantic-release-slack-bot",
-			{
-				"notifyOnSuccess": true,
-				"notifyOnFail": false
-			}
-		]
-	]
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "yarn version ${nextRelease.version}"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "docker build -t hub ."
+      }
+    ],
+    [
+      "@eclass/semantic-release-docker",
+      {
+        "baseImageName": "hub",
+        "registries": [
+          {
+            "url": "docker.pkg.github.com",
+            "imageName": "docker.pkg.github.com/blackout-dev/hub/hub",
+            "user": "GITHUB_ACTOR",
+            "password": "GITHUB_TOKEN"
+          }
+        ]
+      }
+    ],
+    [
+      "semantic-release-slack-bot",
+      {
+        "notifyOnSuccess": true,
+        "notifyOnFail": false
+      }
+    ]
+  ]
 }

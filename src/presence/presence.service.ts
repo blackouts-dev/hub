@@ -20,10 +20,7 @@ export class PresenceService {
     routingKey: 'bot.presence.update',
     queue: 'record-presence',
   })
-  public async storePresence(msg: {
-    bot_id: string;
-    online: boolean;
-  }): Promise<void> {
+  public async storePresence(msg: { bot_id: string; online: boolean }): Promise<void> {
     await this.presenceRepository.save({
       // eslint-disable-next-line @typescript-eslint/camelcase
       bot_id: msg.bot_id,
