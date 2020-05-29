@@ -1,0 +1,12 @@
+.github
+.vscode
+dist
+documentation
+node_modules
+test
+.editorconfig
+.eslintrc.js
+.gitignore
+*.env
+.prettierrc
+.releaserc.json
