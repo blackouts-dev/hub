@@ -389,7 +389,7 @@
     is-absolute "^1.0.0"
     is-negated-glob "^1.0.0"
 
-"@eclass/semantic-release-docker@^1.0.3":
+"@eclass/semantic-release-docker@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@eclass/semantic-release-docker/-/semantic-release-docker-1.0.3.tgz#89cda3a68f174e4cfcdbd8c05fd16330759a4570"
   integrity sha512-JAJCdZNyNxdERURoIQdwSoce19M4Mt3dyJTNZoKH7hOaRX/O7SiJH1LrCibAaPRHKNktu0N3nqh/yM1zy0Hgig==
@@ -907,7 +907,7 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
   integrity sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
 
-"@semantic-release/exec@^5.0.0":
+"@semantic-release/exec@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/exec/-/exec-5.0.0.tgz#69c253107a755dabf7c262d417269d099f714356"
   integrity sha512-t7LWXIvDJQbuGCy2WmMG51WyaGSLTvZBv9INvcI4S0kn+QjnnVVUMhcioIqhb0r3yqqarMzHVcABFug0q0OXjw==
@@ -2722,12 +2722,12 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-class-transformer-validator@^0.8.0:
+class-transformer-validator@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/class-transformer-validator/-/class-transformer-validator-0.8.0.tgz#4ce1f0993e578d25c9ec46f67a1a8ec0798a8c40"
   integrity sha512-CPzLx3WIwMWcsrr0F2e/iDcYUcpNZVvkUn03F9ll8rHaD+QHB2XBE4za8So5xxENoXJ9wYJPZdYsPNDkLF09fA==
 
-class-transformer@^0.2.3:
+class-transformer@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
   integrity sha512-qsP+0xoavpOlJHuYsQJsN58HXSl8Jvveo+T37rEvCEeRfMWoytAyR0Ua/YsFgpM6AZYZ/og2PJwArwzJl1aXtQ==
@@ -2742,7 +2742,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-class-validator@^0.12.2:
+class-validator@0.12.2:
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.12.2.tgz#2ceb72f88873e9c714cf5f9c278cbc71f6f6c8ef"
   integrity sha512-TDzPzp8BmpsbPhQpccB3jMUE/3pK0TyqamrK0kcx+ZeFytMA+O6q87JZZGObHHnoo9GM8vl/JppIyKWeEA/EVw==
@@ -9736,7 +9736,7 @@ secure-json-parse@^2.1.0:
   resolved "https://registry.yarnpkg.com/secure-json-parse/-/secure-json-parse-2.1.0.tgz#ae76f5624256b5c497af887090a5d9e156c9fb20"
   integrity sha512-GckO+MS/wT4UogDyoI/H/S1L0MCcKS1XX/vp48wfmU7Nw4woBmb8mIpu4zPBQjKlRT88/bt9xdoV4111jPpNJA==
 
-semantic-release-slack-bot@^1.6.2:
+semantic-release-slack-bot@1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-1.6.2.tgz#b07c9596d808c07eebedb9defc1fc0208ca76272"
   integrity sha512-XVfignER7ZXGstfu0T2pyPIx1rsuSHEDRsScTcVmFNrAYBPCYEzBMmYdAd+Zq/UItmEcexcfi2h+7AIC8PeyWQ==
@@ -9745,7 +9745,7 @@ semantic-release-slack-bot@^1.6.2:
     node-fetch "^2.3.0"
     slackify-markdown "^1.1.1"
 
-semantic-release@^17.0.8:
+semantic-release@17.0.8:
   version "17.0.8"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.8.tgz#68b80461fdd8eb445228ae23fd9e85857a50ae3f"
   integrity sha512-9KcdidiJ4xchrJXxPdaDQVlybgX0xTeKyVjRySYk5u9GpjibXD7E5F8cB0BvFLMDmMyrkCwcem0kFiaLD2VNPg==
