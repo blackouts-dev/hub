@@ -20,6 +20,14 @@ export class Presence {
   bot_id: bigint;
 
   /**
+   * Discord snowflake of the guild.
+   * @example 714745044984135680n
+   */
+  @Index()
+  @Column({ type: 'bigint' })
+  guild_id: bigint;
+
+  /**
    * Whether or not the bot was online at this point in time.
    * @example true
    */
