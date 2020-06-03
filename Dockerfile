@@ -1,6 +1,6 @@
 ### INSTALLER STAGE ###
 
-FROM node:12.17.0-alpine AS installer
+FROM node:12.18.0-alpine AS installer
 
 # Create app directory
 WORKDIR /usr/src/installer
@@ -12,7 +12,7 @@ COPY package.json yarn.lock ./
 RUN yarn install --production=true
 
 ### BUILDER STAGE ###
-FROM node:12.17.0-alpine AS builder
+FROM node:12.18.0-alpine AS builder
 
 # Create app directory
 WORKDIR /usr/src/builder
@@ -38,7 +38,7 @@ COPY src ./src
 RUN yarn run build
 
 ### HUB STAGE ###
-FROM node:12.17.0-alpine AS hub
+FROM node:12.18.0-alpine AS hub
 
 LABEL maintainer 'Jonah Snider <jonah@jonah.pw> (jonah.pw)'
 
