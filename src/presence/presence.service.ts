@@ -9,11 +9,13 @@ import { Presence } from './presence.entity';
 export class PresenceService {
   constructor(
     @InjectRepository(Presence)
-    private presenceRepository: Repository<Presence>,
+    public presenceRepository: Repository<Presence>,
   ) {}
 
-  findAll(): Promise<Presence[]> {
-    return this.presenceRepository.find();
+  public async queryBot(botId: bigint) {
+    const bots = await this.presenceRepository.find({ where: { bot_id: botId } });
+
+    return bots;
   }
 
   /**
