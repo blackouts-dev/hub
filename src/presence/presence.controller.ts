@@ -7,7 +7,7 @@ export class PresenceController {
   constructor(private service: PresenceService) {}
 
   @Get(':botId')
-  async queryBot(@Param('botId') botId): Promise<Presence[]> {
+  async queryBot(@Param('botId') botId: string): Promise<Presence[]> {
     // we should do actual validation here
     // and use actual DTO or smth
     const id = BigInt(botId);
