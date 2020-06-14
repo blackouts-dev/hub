@@ -2736,7 +2736,7 @@ class-transformer-validator@0.9.0:
   resolved "https://registry.yarnpkg.com/class-transformer-validator/-/class-transformer-validator-0.9.0.tgz#966c419e5243f146f8c32e5b6c3dc90d6ef264f8"
   integrity sha512-evj/VLVxYgaboTUIXs3+7lxugTNhwuUWI8GJoLTzfqc2d8khHZUnfko6cWGOVOrZg21LOmtcoCMoDXYRdS7BXw==
 
-class-transformer@^0.2.3:
+class-transformer@0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
   integrity sha512-qsP+0xoavpOlJHuYsQJsN58HXSl8Jvveo+T37rEvCEeRfMWoytAyR0Ua/YsFgpM6AZYZ/og2PJwArwzJl1aXtQ==
@@ -2751,7 +2751,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-class-validator@^0.12.2:
+class-validator@0.12.2:
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.12.2.tgz#2ceb72f88873e9c714cf5f9c278cbc71f6f6c8ef"
   integrity sha512-TDzPzp8BmpsbPhQpccB3jMUE/3pK0TyqamrK0kcx+ZeFytMA+O6q87JZZGObHHnoo9GM8vl/JppIyKWeEA/EVw==
