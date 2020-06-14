@@ -1,21 +1,20 @@
-import { Controller, Get, Logger, Param } from '@nestjs/common';
-import { Presence } from './presence.entity';
+import { Controller, Get, NotFoundException, Param } from '@nestjs/common';
+import { ParseBigIntPipe } from 'src/parse-big-int.pipe';
 import { PresenceService } from './presence.service';
+import { UptimeStat } from './uptime-stat.dto';
 
 @Controller('presence')
 export class PresenceController {
   constructor(private service: PresenceService) {}
 
   @Get(':botId')
-  async queryBot(@Param('botId') botId: string): Promise<Presence[]> {
-    // we should do actual validation here
-    // and use actual DTO or smth
-    const id = BigInt(botId);
+  async queryBot(@Param('botId', ParseBigIntPipe) botId: bigint): Promise<UptimeStat[]> {
+    const uptimeStats = await this.service.uptimeStats(botId.toString());
 
-    Logger.debug({ botId }, 'presence controller hell');
+    if (uptimeStats.length === 0) {
+      throw new NotFoundException('No presence data recorded');
+    }
 
-    const presences = await this.service.queryBot(id);
-
-    return presences;
+    return uptimeStats;
   }
 }
