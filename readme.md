@@ -1,15 +1,15 @@
-# BLACKOUT Hub
+# BLACKOUTS Hub
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/blackout-dev/brand/master/blackout.png" width="320" alt="BLACKOUT Logo" />
+  <img src="https://raw.githubusercontent.com/blackouts-dev/brand/master/blackouts.png" width="320" alt="BLACKOUTS Logo" />
 </p>
 
-Server hub for other BLACKOUT services.
+Server hub for other BLACKOUTS services.
 Handles RabbitMQ message processing and the API for the frontend.
 
 ## Running
 
-You should run this using the [Docker Compose stack](https://github.com/blackout-dev/stack) we have setup.
+You should run this using the [Docker Compose stack](https://github.com/blackouts-dev/stack) we have setup.
 
 Make sure to populate the `hub.env` file to supply the following environment variables:
 
