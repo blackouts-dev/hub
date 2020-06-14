@@ -22,7 +22,7 @@
         "registries": [
           {
             "url": "docker.pkg.github.com",
-            "imageName": "docker.pkg.github.com/blackout-dev/hub/hub",
+            "imageName": "docker.pkg.github.com/blackouts-dev/hub/hub",
             "user": "GITHUB_ACTOR",
             "password": "GITHUB_TOKEN"
           }
