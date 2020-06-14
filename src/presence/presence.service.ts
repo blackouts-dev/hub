@@ -4,16 +4,24 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { transformAndValidate } from 'class-transformer-validator';
 import { Repository } from 'typeorm';
 import { Presence } from './presence.entity';
+import { UptimeStat } from './uptime-stat.dto';
 
 @Injectable()
 export class PresenceService {
   constructor(
     @InjectRepository(Presence)
-    private presenceRepository: Repository<Presence>,
+    public presenceRepository: Repository<Presence>,
   ) {}
 
-  findAll(): Promise<Presence[]> {
-    return this.presenceRepository.find();
+  public async uptimeStats(botId: string): Promise<UptimeStat[]> {
+    Logger.debug("{ msg: 'querying', botId }", 'PresenceService');
+    Logger.debug({ msg: 'querying', botId }, 'PresenceService');
+
+    const bots = await this.presenceRepository.find({ where: { bot_id: botId }, order: { when: 'DESC' }, select: ['guild_id', 'online', 'when'] });
+
+    Logger.debug({ msg: 'queried', bots }, 'PresenceService');
+
+    return bots;
   }
 
   /**
