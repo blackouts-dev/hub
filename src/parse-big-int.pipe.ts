@@ -24,9 +24,8 @@ export class ParseBigIntPipe implements PipeTransform<string> {
    * Method that accesses and performs optional transformation on argument for in-flight requests.
    *
    * @param value Currently processed route argument
-   * @param metadata Contains metadata about the currently processed route argument
    */
-  async transform(value: string, metadata: ArgumentMetadata): Promise<bigint> {
+  async transform(value: string): Promise<bigint> {
     try {
       return BigInt(value);
     } catch (error) {
