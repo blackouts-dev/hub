@@ -1,5 +1,4 @@
 ### INSTALLER STAGE ###
-
 FROM node:12.18.0-alpine AS installer
 
 # Create app directory
