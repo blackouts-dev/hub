@@ -16,9 +16,9 @@ import { PresenceModule } from './presence/presence.module';
       inject: [ConfigService],
       useFactory: async (configService: ConfigService): Promise<TypeOrmModuleOptions> => ({
         type: 'postgres',
-        url: configService.get('POSTGRES_URI'),
-        synchronize: configService.get('DATABASE_SYNCHRONIZE', process.env.NODE_ENV === 'development'),
-        logging: configService.get('TYPEORM_LOGGING', process.env.NODE_ENV === 'development'),
+        url: configService.get<string>('POSTGRES_URI'),
+        synchronize: configService.get<boolean>('DATABASE_SYNCHRONIZE', process.env.NODE_ENV === 'development'),
+        logging: configService.get<boolean>('TYPEORM_LOGGING', process.env.NODE_ENV === 'development'),
         entities: [joinPaths(__dirname, '**', '*.entity{.ts,.js}')],
       }),
     }),
