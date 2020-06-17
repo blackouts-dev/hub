@@ -1,4 +1,4 @@
-import { ArgumentMetadata, HttpStatus, Injectable, Optional, PipeTransform } from '@nestjs/common';
+import { HttpStatus, Injectable, Optional, PipeTransform } from '@nestjs/common';
 import { ErrorHttpStatusCode, HttpErrorByCode } from '@nestjs/common/utils/http-error-by-code.util';
 
 export interface ParseBigIntPipeOptions {
