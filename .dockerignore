@@ -8,5 +8,6 @@ test
 .eslintrc.js
 .gitignore
 *.env
+.pnp.*
 .prettierrc
 .releaserc.json

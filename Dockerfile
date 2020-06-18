@@ -1,15 +1,3 @@
-### INSTALLER STAGE ###
-FROM node:12.18.0-alpine AS installer
-
-# Create app directory
-WORKDIR /usr/src/installer
-
-ENV NODE_ENV=production
-
-COPY package.json yarn.lock ./
-
-RUN yarn install --production=true
-
 ### BUILDER STAGE ###
 FROM node:12.18.0-alpine AS builder
 
@@ -18,13 +6,14 @@ WORKDIR /usr/src/builder
 
 ENV NODE_ENV=production
 
-COPY package.json yarn.lock ./
+# Install dependencies
+COPY package.json yarn.lock .yarnrc.yml ./
+COPY .yarn/releases/yarn-berry.js .yarn/releases/yarn-berry.js
 
-# Copy dependencies that were installed before
-COPY --from=installer /usr/src/installer/node_modules node_modules
+# Copy your local cache to speed up builds, Yarn will download any updates that are required, so this has no negative side effects
+COPY .yarn ./.yarn
 
-# Install the other devdependencies
-RUN yarn install --production=false
+RUN yarn install
 
 # Copy build configurations
 COPY tsconfig.json ./
@@ -48,11 +37,11 @@ ENV NODE_ENV=production
 EXPOSE 3000
 
 # Install dependencies
-COPY --from=installer /usr/src/installer/node_modules ./node_modules
-COPY --from=installer /usr/src/installer/yarn.lock ./yarn.lock
+COPY --from=builder /usr/src/builder/.yarn ./.yarn
+COPY --from=builder /usr/src/builder/yarn.lock ./yarn.lock
 
 # Copy other required files
-COPY package.json package.json
+COPY package.json .yarnrc.yml ./
 
 # Copy compiled TypeScript
 COPY --from=builder /usr/src/builder/dist ./dist
