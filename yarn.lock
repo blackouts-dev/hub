@@ -801,9 +801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/cli@npm:7.3.0":
-  version: 7.3.0
-  resolution: "@nestjs/cli@npm:7.3.0"
+"@nestjs/cli@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@nestjs/cli@npm:7.4.0"
   dependencies:
     "@angular-devkit/core": 9.1.9
     "@angular-devkit/schematics": 9.1.9
@@ -829,7 +829,7 @@ __metadata:
     webpack-node-externals: 1.7.2
   bin:
     nest: bin/nest.js
-  checksum: f60da1716644ff4b3adb2e10dd25c8c4e167fd208969e12e94883d1e0408b2798a4e0a0d0f2fd981edea4662ff6fb13c1bb60f693732c51d716a2bd181cecfce
+  checksum: a169769cb9c5b7806c0dbb22999217bc2002ead2136eb34beea9072c44356b2cb983842b8d3b1338670760e2a1df11badc33de8c4599640496fcc3d536d5cb7b
   languageName: node
   linkType: hard
 
@@ -2840,7 +2840,7 @@ __metadata:
     "@compodoc/compodoc": 1.1.11
     "@eclass/semantic-release-docker": 1.0.3
     "@golevelup/nestjs-rabbitmq": 1.15.1
-    "@nestjs/cli": 7.3.0
+    "@nestjs/cli": 7.4.0
     "@nestjs/common": 7.2.0
     "@nestjs/config": 0.5.0
     "@nestjs/core": 7.2.0
