@@ -25,7 +25,7 @@
   "devDependencies": {
     "@compodoc/compodoc": "1.1.11",
     "@eclass/semantic-release-docker": "1.0.3",
-    "@nestjs/cli": "7.3.0",
+    "@nestjs/cli": "7.4.0",
     "@nestjs/schematics": "7.0.1",
     "@nestjs/testing": "7.2.0",
     "@semantic-release/exec": "5.0.0",
