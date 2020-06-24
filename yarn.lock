@@ -801,9 +801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/cli@npm:7.4.0":
-  version: 7.4.0
-  resolution: "@nestjs/cli@npm:7.4.0"
+"@nestjs/cli@npm:7.4.1":
+  version: 7.4.1
+  resolution: "@nestjs/cli@npm:7.4.1"
   dependencies:
     "@angular-devkit/core": 9.1.9
     "@angular-devkit/schematics": 9.1.9
@@ -814,7 +814,7 @@ __metadata:
     chokidar: 3.4.0
     cli-table3: 0.5.1
     commander: 4.1.1
-    fork-ts-checker-webpack-plugin: 5.0.1
+    fork-ts-checker-webpack-plugin: 5.0.4
     inquirer: 7.2.0
     node-emoji: 1.10.0
     ora: 4.0.4
@@ -829,7 +829,7 @@ __metadata:
     webpack-node-externals: 1.7.2
   bin:
     nest: bin/nest.js
-  checksum: a169769cb9c5b7806c0dbb22999217bc2002ead2136eb34beea9072c44356b2cb983842b8d3b1338670760e2a1df11badc33de8c4599640496fcc3d536d5cb7b
+  checksum: 9f3befbef026451ea737428272b4199e1a0c47f6d88051f23b9f33fb9618d6f3e27404a129b247d998686320a7208bb1270ce2653a77c7e1e145474460e22714
   languageName: node
   linkType: hard
 
@@ -2847,7 +2847,7 @@ __metadata:
     "@compodoc/compodoc": 1.1.11
     "@eclass/semantic-release-docker": 1.0.3
     "@golevelup/nestjs-rabbitmq": 1.15.1
-    "@nestjs/cli": 7.4.0
+    "@nestjs/cli": 7.4.1
     "@nestjs/common": 7.2.0
     "@nestjs/config": 0.5.0
     "@nestjs/core": 7.2.0
@@ -2878,7 +2878,7 @@ __metadata:
     semantic-release: 17.0.8
     semantic-release-slack-bot: 1.6.2
     supertest: 4.0.2
-    ts-jest: 26.1.0
+    ts-jest: 26.1.1
     ts-loader: 7.0.5
     ts-node: 8.10.2
     tsconfig-paths: 3.9.0
@@ -6247,9 +6247,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:5.0.1":
-  version: 5.0.1
-  resolution: "fork-ts-checker-webpack-plugin@npm:5.0.1"
+"fork-ts-checker-webpack-plugin@npm:5.0.4":
+  version: 5.0.4
+  resolution: "fork-ts-checker-webpack-plugin@npm:5.0.4"
   dependencies:
     "@babel/code-frame": ^7.8.3
     chalk: ^2.4.1
@@ -6261,7 +6261,7 @@ __metadata:
     schema-utils: 1.0.0
     semver: ^5.6.0
     tapable: ^1.0.0
-  checksum: ca4c055420b63fa87de20d53f464674eac0f63900190e70cfd27da05eff53d2d6316cbe0bf18353ba6606a9d8ef823b7cfbf264a81712bc6ee1ea9099cdab119
+  checksum: 2c843110236791024675a5550b295ed84daa23c06b217db6e0f6441a396c8cf5d697dbd1c9da882f90a7615ae925c2e0952c2acda5b985d44138a277defb7983
   languageName: node
   linkType: hard
 
@@ -14381,9 +14381,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:26.1.0":
-  version: 26.1.0
-  resolution: "ts-jest@npm:26.1.0"
+"ts-jest@npm:26.1.1":
+  version: 26.1.1
+  resolution: "ts-jest@npm:26.1.1"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -14400,7 +14400,7 @@ resolve@1.1.7:
     typescript: ">=3.8 <4.0"
   bin:
     ts-jest: cli.js
-  checksum: 4289da86b257a0cd1afcc6412e6f6d6e25388cb620c5f56cf0deb909dacb3c7f598ca07c4dbd52cccb2d94408419a732b50ceffcb46d041b311b8d5d41668f24
+  checksum: e972f77c2a4fbf1ef0efd06b393d19de23cc279a13655da06e5e1320423bde903759d687f266df9cbc24c322728aca1ba745b68a0528d5a8e821e6168acb3a9b
   languageName: node
   linkType: hard
 
