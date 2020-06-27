@@ -2876,7 +2876,7 @@ __metadata:
     reflect-metadata: 0.1.13
     rimraf: 3.0.2
     rxjs: 6.5.5
-    semantic-release: 17.0.8
+    semantic-release: 17.1.1
     semantic-release-slack-bot: 1.6.2
     supertest: 4.0.2
     ts-jest: 26.1.1
@@ -12790,9 +12790,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.0.8":
-  version: 17.0.8
-  resolution: "semantic-release@npm:17.0.8"
+"semantic-release@npm:17.1.1":
+  version: 17.1.1
+  resolution: "semantic-release@npm:17.1.1"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -12824,7 +12824,7 @@ resolve@1.1.7:
     yargs: ^15.0.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: a4062d62d7ab752d5ae690fe2c3effa7372e067aa82b9bbc17a5aeb51b553e9ef7daf12a9eecf54069c26e4574904609831c0b569763488bbb9d0a601632b0bd
+  checksum: 991b468ef8d602f1635512d9b4ea2bf8614da2f5fcd0b88158d191107be2661c8d8ff014fececb354c238e32939847ab4f1e7597f0c2c8a254ba6081d11da3f6
   languageName: node
   linkType: hard
 
