@@ -833,19 +833,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@nestjs/common@npm:7.2.0"
+"@nestjs/common@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@nestjs/common@npm:7.3.1"
   dependencies:
     axios: 0.19.2
     cli-color: 2.0.0
     iterare: 1.2.1
     tslib: 2.0.0
-    uuid: 8.1.0
+    uuid: 8.2.0
   peerDependencies:
     reflect-metadata: ^0.1.12
     rxjs: ^6.0.0
-  checksum: 819d706e3da9544b6f510fe296f1bff69b657c85952c0c20daba5d5d88f9912e9f52b3184386d5a1703c9f44f584c9f6a1431692b120badfc27ee416088bdc92
+  checksum: 99853270eff0fb23e00daa099582dfb56a35a5f3e006517c89386023e4f5be9f96a56f16bc6bd549ac310ec3dfe6a5b1919cd40ff19a26f125bf2cf5e78fbcdf
   languageName: node
   linkType: hard
 
@@ -866,9 +866,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@nestjs/core@npm:7.2.0"
+"@nestjs/core@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@nestjs/core@npm:7.3.1"
   dependencies:
     "@nuxtjs/opencollective": 0.2.2
     fast-safe-stringify: 2.0.7
@@ -876,18 +876,18 @@ __metadata:
     object-hash: 2.0.3
     path-to-regexp: 3.2.0
     tslib: 2.0.0
-    uuid: 8.1.0
+    uuid: 8.2.0
   peerDependencies:
     "@nestjs/common": ^7.0.0
     reflect-metadata: ^0.1.12
     rxjs: ^6.0.0
-  checksum: 2ab384b9224434ce668b5a6118dfb950ea3393decac243677457dcabdb86b2d1605d25cbec8aeba17e1b179c61a9000e60a1b470e8680f648db5b89a1cb37022
+  checksum: bd459b5874d9ac342f0b051701dd0b110382f48bbd2d84dd4ab7f6d8d205ebae64b46dbc7a2e4285f8b2f0f18613d28a7b1d931816d1684f830b4fca958405c8
   languageName: node
   linkType: hard
 
-"@nestjs/platform-express@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@nestjs/platform-express@npm:7.2.0"
+"@nestjs/platform-express@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@nestjs/platform-express@npm:7.3.1"
   dependencies:
     body-parser: 1.19.0
     cors: 2.8.5
@@ -897,15 +897,15 @@ __metadata:
   peerDependencies:
     "@nestjs/common": ^7.0.0
     "@nestjs/core": ^7.0.0
-  checksum: c4209d9db5a83252f185321474f8db0edd6144138c2a63baf42cf1c13325081feeeeeece4972e3719917c4c3bb6526e0ade8c083cbb298baafc743c92901b422
+  checksum: 860ddac7b79da147cf8cd053ea54cd355b6d0f6efb520b228e1515422911082264c5564faed9cc9dc47c754b885c650ad2e8a3abd8a4f1e4ca98607e9c2e8cd3
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@nestjs/platform-fastify@npm:7.2.0"
+"@nestjs/platform-fastify@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@nestjs/platform-fastify@npm:7.3.1"
   dependencies:
-    fastify: 2.14.1
+    fastify: 2.15.1
     fastify-cors: 3.0.3
     fastify-formbody: 3.2.0
     path-to-regexp: 3.2.0
@@ -913,7 +913,7 @@ __metadata:
   peerDependencies:
     "@nestjs/common": ^7.0.0
     "@nestjs/core": ^7.0.0
-  checksum: fd69f8098c534411306b8e09b0da61c03fd957dfecefdabbd2209f30d0c414a309a99fa4353e9e7fbd54942d1c2472cbf87de4121907dccc2ac158a18bd088e5
+  checksum: e2b7ce4a44557fef46d630a433ece5d9a9086fb357fe12b4f43298ed0cc51c90f6cf839987fa792f930f52198711778a3ae6584f7cb73f4193d928ac4c6158f0
   languageName: node
   linkType: hard
 
@@ -930,16 +930,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/testing@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@nestjs/testing@npm:7.2.0"
+"@nestjs/testing@npm:7.3.1":
+  version: 7.3.1
+  resolution: "@nestjs/testing@npm:7.3.1"
   dependencies:
     optional: 0.1.4
     tslib: 2.0.0
   peerDependencies:
     "@nestjs/common": ^7.0.0
     "@nestjs/core": ^7.0.0
-  checksum: ab5b32936ea25f525ac49e15c06e17e8ba78112a0a69580e162f854ed70a7997766ad54ac18f885ebeb165e4a72d813e63865d042384d62e93990d7d8261acfe
+  checksum: 18b56c62bddae379bd14e46ebf8b66517276af4375b2d58637b0277d8ff4a7f3609e788c4c2152f3bebc2247d91ecbbeee9e341dbaf213b15b838902d0cc9974
   languageName: node
   linkType: hard
 
@@ -2575,7 +2575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"avvio@npm:^6.3.1":
+"avvio@npm:^6.4.1":
   version: 6.4.1
   resolution: "avvio@npm:6.4.1"
   dependencies:
@@ -2850,13 +2850,13 @@ __metadata:
     "@eclass/semantic-release-docker": 1.0.3
     "@golevelup/nestjs-rabbitmq": 1.15.1
     "@nestjs/cli": 7.4.1
-    "@nestjs/common": 7.2.0
+    "@nestjs/common": 7.3.1
     "@nestjs/config": 0.5.0
-    "@nestjs/core": 7.2.0
-    "@nestjs/platform-express": 7.2.0
-    "@nestjs/platform-fastify": 7.2.0
+    "@nestjs/core": 7.3.1
+    "@nestjs/platform-express": 7.3.1
+    "@nestjs/platform-fastify": 7.3.1
     "@nestjs/schematics": 7.0.1
-    "@nestjs/testing": 7.2.0
+    "@nestjs/testing": 7.3.1
     "@nestjs/typeorm": 7.1.0
     "@semantic-release/exec": 5.0.0
     "@types/express": 4.17.6
@@ -5966,13 +5966,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:2.14.1":
-  version: 2.14.1
-  resolution: "fastify@npm:2.14.1"
+"fastify@npm:2.15.1":
+  version: 2.15.1
+  resolution: "fastify@npm:2.15.1"
   dependencies:
     abstract-logging: ^2.0.0
     ajv: ^6.12.0
-    avvio: ^6.3.1
+    avvio: ^6.4.1
     fast-json-stringify: ^1.18.0
     find-my-way: ^2.2.2
     flatstr: ^1.0.12
@@ -5984,7 +5984,7 @@ __metadata:
     rfdc: ^1.1.2
     secure-json-parse: ^2.1.0
     tiny-lru: ^7.0.2
-  checksum: 3bcf329db3a298e990d925c81446025ea31c99ce3567b4ce19af57a7e2f7deef191ab63a03f2b73ae02dadf69f9e62f71c2f45c8543269f7a26e0eac22f54e35
+  checksum: 257ae358776679a03a488ca170b6f41d486125eb92f9e78a7ec23a18f5dca778ff16709d954f6e5fbd083d8d2239d2c5e708aa8625cffc29f2704f0c5065c858
   languageName: node
   linkType: hard
 
@@ -15112,6 +15112,15 @@ typescript@^3.6.4:
   bin:
     uuid: dist/bin/uuid
   checksum: e212e1e9dcf38baf070b6a892653e3504cf6ec2baf9d830d844ba4e4411af28b0937e94c631fb093fa1d72dd85166856f0fb5e4bd79bbcfeca021b80fa18e9a8
+  languageName: node
+  linkType: hard
+
+"uuid@npm:8.2.0":
+  version: 8.2.0
+  resolution: "uuid@npm:8.2.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 6059ba10c32a42897af628b9e434ff523713614714d93845c76ee153f0d9c7e88ab47b8d03cadbe5f4c39a57abc4fbff46ae533fff6318cc6c907e4cd626fcb2
   languageName: node
   linkType: hard
 
