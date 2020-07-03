@@ -2885,7 +2885,7 @@ __metadata:
     ts-node: 8.10.2
     tsconfig-paths: 3.9.0
     typeorm: 0.2.25
-    typescript: 3.9.5
+    typescript: 3.9.6
   languageName: unknown
   linkType: soft
 
@@ -14665,13 +14665,13 @@ typescript@2.9.1:
   languageName: node
   linkType: hard
 
-typescript@3.9.5:
-  version: 3.9.5
-  resolution: "typescript@npm:3.9.5"
+typescript@3.9.6:
+  version: 3.9.6
+  resolution: "typescript@npm:3.9.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 15618435493667083eb43dc7b36c4d3dd47fd9e9c8a14f0ac4019bbf6124b6cc518b6ed506400913db1bf50831207ee8201b5d827680076930b562923f4f18a0
+  checksum: 75d8e3610ca435b0feaa3eb714ef3aa9060ec72621da3c62c45ceee1d8d0ddcbd8ff2a816de2d24ab28dcd2249953edb640d34595d59e491656156da4c2903fc
   languageName: node
   linkType: hard
 
@@ -14705,13 +14705,13 @@ typescript@^3.6.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@3.9.5#builtin<compat/typescript>":
-  version: 3.9.5
-  resolution: "typescript@patch:typescript@npm%3A3.9.5#builtin<compat/typescript>::version=3.9.5&hash=64df9d"
+"typescript@patch:typescript@3.9.6#builtin<compat/typescript>":
+  version: 3.9.6
+  resolution: "typescript@patch:typescript@npm%3A3.9.6#builtin<compat/typescript>::version=3.9.6&hash=64df9d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 5849aa7c2d887b4d0b289530b45690fc26e606ea3719cf958dbb7f531ca1b968895bbef89b21ecb3903d5039fb047ebf6a0047ba147123060cbe1940ce5c91be
+  checksum: 74cb55c847841e1aeea9c78bdf0156cf6ba311eb353e555ba70cb6df120e9b4c4a7feff2a153f04fda3d6b7124496fd4d444be62f3d2d448e77c667ea5beaa0b
   languageName: node
   linkType: hard
 
