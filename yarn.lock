@@ -1414,13 +1414,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.3":
-  version: 26.0.3
-  resolution: "@types/jest@npm:26.0.3"
+"@types/jest@npm:26.0.4":
+  version: 26.0.4
+  resolution: "@types/jest@npm:26.0.4"
   dependencies:
     jest-diff: ^25.2.1
     pretty-format: ^25.2.1
-  checksum: 8a8a98865cce9d454bc0b5332e9caa5d7cfb3f9f608dfb355c12a5e5eb14ce0626854329d5046015098dcb5fb022cf9fe18c5ad72d7b4563ad3f44ad1ab84050
+  checksum: f815792ecc2191410bf541740b834bafb608b9a5be0b77b21770d8728e87b2bdd55843999bc9236ebd027e11a4cabbec90da7612fb9a620cf8bd858ae3774bd2
   languageName: node
   linkType: hard
 
@@ -2879,7 +2879,7 @@ __metadata:
     "@nestjs/typeorm": 7.1.0
     "@semantic-release/exec": 5.0.0
     "@types/express": 4.17.7
-    "@types/jest": 26.0.3
+    "@types/jest": 26.0.4
     "@types/node": 13.13.13
     "@types/supertest": 2.0.10
     "@typescript-eslint/eslint-plugin": 3.5.0
