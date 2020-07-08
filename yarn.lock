@@ -1367,15 +1367,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express@npm:4.17.6":
-  version: 4.17.6
-  resolution: "@types/express@npm:4.17.6"
+"@types/express@npm:4.17.7":
+  version: 4.17.7
+  resolution: "@types/express@npm:4.17.7"
   dependencies:
     "@types/body-parser": "*"
     "@types/express-serve-static-core": "*"
     "@types/qs": "*"
     "@types/serve-static": "*"
-  checksum: 45e31c66a048bfb8ddfb28f9c7f448f89eb8667132dc13f0e35397d5e4df05796f920a114bb774ba910bb3795a18d17a3ea8ae6aaf4d0d2e6b6c5622866f21d0
+  checksum: 99b795c60e7368b575794574c35d0ffd0d119c52bc681af6beda2fee70aada78e8aef07fc0db3b88f594d5d935847de4187561d2456760eeb4fde5d10dbb3780
   languageName: node
   linkType: hard
 
@@ -2878,7 +2878,7 @@ __metadata:
     "@nestjs/testing": 7.3.1
     "@nestjs/typeorm": 7.1.0
     "@semantic-release/exec": 5.0.0
-    "@types/express": 4.17.6
+    "@types/express": 4.17.7
     "@types/jest": 26.0.3
     "@types/node": 13.13.13
     "@types/supertest": 2.0.10
