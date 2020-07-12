@@ -2891,7 +2891,7 @@ __metadata:
     eslint-config-prettier: 6.11.0
     eslint-plugin-import: 2.22.0
     jest: 26.1.0
-    pg: 8.2.2
+    pg: 8.3.0
     prettier: 2.0.5
     reflect-metadata: 0.1.13
     rimraf: 3.0.2
@@ -11426,10 +11426,10 @@ opn@latest:
   languageName: node
   linkType: hard
 
-"pg-connection-string@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "pg-connection-string@npm:2.2.3"
-  checksum: d60ff02f4fe9963ba39b60fde9e6925181851cedced0d1618c7e4cd304f44e4ed3f83371c952e15aa94af08e31e248975f4bfb412431854d21cb8be618b06d6e
+"pg-connection-string@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "pg-connection-string@npm:2.3.0"
+  checksum: 610d03707d0544af81900facd4b7ef2d7527ea9c016c091c292966d77b53ca56327a3e1fc9a527b94094df356cba1be3bc8de72903ef9c1cd9622d4469d91196
   languageName: node
   linkType: hard
 
@@ -11469,19 +11469,19 @@ opn@latest:
   languageName: node
   linkType: hard
 
-"pg@npm:8.2.2":
-  version: 8.2.2
-  resolution: "pg@npm:8.2.2"
+"pg@npm:8.3.0":
+  version: 8.3.0
+  resolution: "pg@npm:8.3.0"
   dependencies:
     buffer-writer: 2.0.0
     packet-reader: 1.0.0
-    pg-connection-string: ^2.2.3
+    pg-connection-string: ^2.3.0
     pg-pool: ^3.2.1
     pg-protocol: ^1.2.5
     pg-types: ^2.1.0
     pgpass: 1.x
     semver: 4.3.2
-  checksum: 62542559a31c570290baccca982b404662a7b4f2bdf64c281621448126c37d8361508f656abbc94856b0dc954ad931965b26910a8be940a4ed2961cab278d8b5
+  checksum: bc862ee5dc3661414e6230d6e74d16d4bc282876d2b2848cca4111b8cbb2fcc9a37727cbaf13c106750550c5ab3f3f8982ca7b353fb895b58f0b1058c88a05f5
   languageName: node
   linkType: hard
 
