@@ -2887,7 +2887,7 @@ __metadata:
     ts-loader: 8.0.2
     ts-node: 8.10.2
     tsconfig-paths: 3.9.0
-    typeorm: 0.2.25
+    typeorm: 0.2.26
     typescript: 3.9.7
   languageName: unknown
   linkType: soft
@@ -4923,7 +4923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:8.2.0":
+"dotenv@npm:8.2.0, dotenv@npm:^8.2.0":
   version: 8.2.0
   resolution: "dotenv@npm:8.2.0"
   checksum: 16cb89cbd7b98b053899b8aba8c5044c8fb61a2db8a81fe70360b75035fce5fed53bd7a34d772be717d0880c0321122a4c09423f518025e1b52d96791521b1a7
@@ -4934,13 +4934,6 @@ __metadata:
   version: 5.0.1
   resolution: "dotenv@npm:5.0.1"
   checksum: 6e5990d203590796f5576b73576df3c97767b9d30572a51e8b676539ba682910a9a7b2bc7f0b7445b4d4f9d1aa0b5850bf3d4c6ac516a56d82c9575515a6cf74
-  languageName: node
-  linkType: hard
-
-"dotenv@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "dotenv@npm:6.2.0"
-  checksum: 2589b4c8e3d9a54eaad276d0a6a3821eb73250b439edd7ba70147dfe4e12148461919817506c7dfae3f1ea72a88cb38bf01b0656fe0c28e8e51df9391ef76e73
   languageName: node
   linkType: hard
 
@@ -14447,16 +14440,16 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"typeorm@npm:0.2.25":
-  version: 0.2.25
-  resolution: "typeorm@npm:0.2.25"
+"typeorm@npm:0.2.26":
+  version: 0.2.26
+  resolution: "typeorm@npm:0.2.26"
   dependencies:
     app-root-path: ^3.0.0
     buffer: ^5.1.0
     chalk: ^2.4.2
     cli-highlight: ^2.0.0
     debug: ^4.1.1
-    dotenv: ^6.2.0
+    dotenv: ^8.2.0
     glob: ^7.1.2
     js-yaml: ^3.13.1
     mkdirp: ^1.0.3
@@ -14468,7 +14461,7 @@ resolve@1.1.7:
     yargs: ^13.2.1
   bin:
     typeorm: cli.js
-  checksum: 8004ad64c4aee55f44bada594fc86a70f50a2f5914d533cf8fbbf4d0623aed00a28e0682f5f260ebf0b012cd3a6f85f3cf2873317b9137070da53bc2d2220a8c
+  checksum: fd2b4ac11ae0c793c1bc8194dd020246768af66a56d25beb1951c683882779fe4b314462c7f291a86758a2b86bf4e172718e17f8ff5ccca868bfc1de67a4d2f3
   languageName: node
   linkType: hard
 
