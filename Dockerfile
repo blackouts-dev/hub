@@ -1,5 +1,5 @@
 ### BUILDER STAGE ###
-FROM node:12.18.3-alpine AS builder
+FROM node:12.18.4-alpine AS builder
 
 # Create app directory
 WORKDIR /usr/src/builder
@@ -26,7 +26,7 @@ COPY src ./src
 RUN yarn run build
 
 ### HUB STAGE ###
-FROM node:12.18.3-alpine AS hub
+FROM node:12.18.4-alpine AS hub
 
 LABEL maintainer 'Jonah Snider <jonah@jonah.pw> (jonah.pw)'
 
