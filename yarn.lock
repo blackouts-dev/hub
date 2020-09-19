@@ -2884,7 +2884,7 @@ __metadata:
     semantic-release-slack-bot: 1.6.2
     supertest: 4.0.2
     ts-jest: 26.1.4
-    ts-loader: 8.0.2
+    ts-loader: 8.0.4
     ts-node: 8.10.2
     tsconfig-paths: 3.9.0
     typeorm: 0.2.25
@@ -14223,9 +14223,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:8.0.2":
-  version: 8.0.2
-  resolution: "ts-loader@npm:8.0.2"
+"ts-loader@npm:8.0.4":
+  version: 8.0.4
+  resolution: "ts-loader@npm:8.0.4"
   dependencies:
     chalk: ^2.3.0
     enhanced-resolve: ^4.0.0
@@ -14234,7 +14234,7 @@ resolve@1.1.7:
     semver: ^6.0.0
   peerDependencies:
     typescript: "*"
-  checksum: 84bb8f625af629571132851ae9e350285b06a0cdee074d42b801236922a37e235aa41d462bd20b193720676b834b24ebbe27ab8dae4ea07ec1d136a13da151ec
+  checksum: 2cfdba8538d076fc851ea2ebf02aa39d859e4e62d509fe2004a06c867f5861d7f9cd43ea3b471a09a03b386da0e94a37727400efa7087f814a8d3c6fde431ed1
   languageName: node
   linkType: hard
 
