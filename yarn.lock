@@ -522,16 +522,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eclass/semantic-release-docker@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@eclass/semantic-release-docker@npm:1.0.4"
+"@eclass/semantic-release-docker@npm:1.0.5":
+  version: 1.0.5
+  resolution: "@eclass/semantic-release-docker@npm:1.0.5"
   dependencies:
     "@semantic-release/error": ^2.1.0
-    aggregate-error: 3.0.1
+    aggregate-error: 3.1.0
     dockerode: 3.2.1
   peerDependencies:
     semantic-release: ">=11.0.0 <18.0.0"
-  checksum: 902f9976220024c5a12651a4f55291ca3d9d0861394b1f1d9f6089f75fb746711afe2c6b589fa4b1da728686a38c37e4930f644fd902919be50f587d30aa76dc
+  checksum: f6bfd718468a40fdb008ef78409b1e0977a47ae167369ae4daa31579eeeb30a0f56e2c1cdfff0c673ec16b0d9a6fd0e3b8cd548deef2fe96b34989f1c8f7a6af
   languageName: node
   linkType: hard
 
@@ -2035,7 +2035,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:3.0.1, aggregate-error@npm:^3.0.0":
+"aggregate-error@npm:3.1.0":
+  version: 3.1.0
+  resolution: "aggregate-error@npm:3.1.0"
+  dependencies:
+    clean-stack: ^2.0.0
+    indent-string: ^4.0.0
+  checksum: 704d2001a303c185e9b836d211f7eef2f4557195a11c3271143b4dcda5f6f263abe746d9b8a06b5871d07870686c7db9c0b2c38e2d3cbc593784eaaee8a29043
+  languageName: node
+  linkType: hard
+
+"aggregate-error@npm:^3.0.0":
   version: 3.0.1
   resolution: "aggregate-error@npm:3.0.1"
   dependencies:
@@ -2847,7 +2857,7 @@ __metadata:
   resolution: "blackout@workspace:."
   dependencies:
     "@compodoc/compodoc": 1.1.11
-    "@eclass/semantic-release-docker": 1.0.4
+    "@eclass/semantic-release-docker": 1.0.5
     "@golevelup/nestjs-rabbitmq": 1.15.1
     "@nestjs/cli": 7.5.1
     "@nestjs/common": 7.4.4
