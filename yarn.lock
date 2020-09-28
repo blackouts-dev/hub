@@ -5,6 +5,19 @@ __metadata:
   version: 4
   cacheKey: 6
 
+"@angular-devkit/core@npm:10.0.7":
+  version: 10.0.7
+  resolution: "@angular-devkit/core@npm:10.0.7"
+  dependencies:
+    ajv: 6.12.3
+    fast-json-stable-stringify: 2.1.0
+    magic-string: 0.25.7
+    rxjs: 6.5.5
+    source-map: 0.7.3
+  checksum: ff46aa4996106c6ed3348cdb5f5b68a67a746e04f5d793d816a7662850fb92ae4108d043e561d32a0b40e93b069827321beb4db83563edf5a1fd991a6f7e3c63
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/core@npm:9.1.12":
   version: 9.1.12
   resolution: "@angular-devkit/core@npm:9.1.12"
@@ -18,46 +31,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@npm:9.1.7":
-  version: 9.1.7
-  resolution: "@angular-devkit/core@npm:9.1.7"
+"@angular-devkit/schematics-cli@npm:0.1000.7":
+  version: 0.1000.7
+  resolution: "@angular-devkit/schematics-cli@npm:0.1000.7"
   dependencies:
-    ajv: 6.12.0
-    fast-json-stable-stringify: 2.1.0
-    magic-string: 0.25.7
-    rxjs: 6.5.4
-    source-map: 0.7.3
-  checksum: caf2d93783daf8d5b223b97735ca2d341b0e08fdfa747565ef1ea68f3fc0eb1c30317b4c85ed47ced61e0cbf36f28556f176f2a8f05c98b354c7c95b39958600
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/core@npm:9.1.9":
-  version: 9.1.9
-  resolution: "@angular-devkit/core@npm:9.1.9"
-  dependencies:
-    ajv: 6.12.0
-    fast-json-stable-stringify: 2.1.0
-    magic-string: 0.25.7
-    rxjs: 6.5.4
-    source-map: 0.7.3
-  checksum: ba66fe6119f5eacf4ddcbcd02230d8efd8608f4b1aa3c127e632a8c5c28795c55f19cc77ec80b56f8732e6e6515cfa52e88d8e04244ed5a25d4ce32ca87a4b7d
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/schematics-cli@npm:0.901.9":
-  version: 0.901.9
-  resolution: "@angular-devkit/schematics-cli@npm:0.901.9"
-  dependencies:
-    "@angular-devkit/core": 9.1.9
-    "@angular-devkit/schematics": 9.1.9
-    "@schematics/schematics": 0.901.9
+    "@angular-devkit/core": 10.0.7
+    "@angular-devkit/schematics": 10.0.7
+    "@schematics/schematics": 0.1000.7
     inquirer: 7.1.0
     minimist: 1.2.5
-    rxjs: 6.5.4
+    rxjs: 6.5.5
     symbol-observable: 1.2.0
   bin:
     schematics: bin/schematics.js
-  checksum: eb64f56131c1c1c8618ce86667ab2b3af92fd1abc98e5515cb34f0b38e5cb2f0aa76c160e31b1d0b9be40f09d98aefd493327ae5b605adf32d0b3ad590e0737b
+  checksum: 5f57e39e7671915b5e6a6acac1c905ffb0031673513e26bf0975289908088f87cad548f65fd679a0132d9a9351defd2bff33da14d0764283eab77cafa5e64ec3
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:10.0.7":
+  version: 10.0.7
+  resolution: "@angular-devkit/schematics@npm:10.0.7"
+  dependencies:
+    "@angular-devkit/core": 10.0.7
+    ora: 4.0.4
+    rxjs: 6.5.5
+  checksum: f73af0487cff7179484c842adcf97f88b3097f77d31cdc6d0144f800922d78740f3cca1f779e081a00952d3e54922dca116d8101a1290ee76acd4bcbbeaf47ac
   languageName: node
   linkType: hard
 
@@ -69,28 +67,6 @@ __metadata:
     ora: 4.0.3
     rxjs: 6.5.4
   checksum: dbad75eb49d36b63f10def0d2d19fc4feb9e7ac4b12c41f28e45a6f55524dd07c2c47678fbd97c607548192a1ec8f2cd3eadf06a428a122603c2068706367f95
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/schematics@npm:9.1.7":
-  version: 9.1.7
-  resolution: "@angular-devkit/schematics@npm:9.1.7"
-  dependencies:
-    "@angular-devkit/core": 9.1.7
-    ora: 4.0.3
-    rxjs: 6.5.4
-  checksum: 3cf227de3df8bd01b2080e73fe6bf383c6ed3820b0ef7ae249187822e755563dcb83c2f3e0c578e0e67280b25975b6f8be35fcbe29c56e6081b4bf3ba648469a
-  languageName: node
-  linkType: hard
-
-"@angular-devkit/schematics@npm:9.1.9":
-  version: 9.1.9
-  resolution: "@angular-devkit/schematics@npm:9.1.9"
-  dependencies:
-    "@angular-devkit/core": 9.1.9
-    ora: 4.0.3
-    rxjs: 6.5.4
-  checksum: ff2bc0caf541684ad3d6898dd3b81908248c6ee51262e9812c30dbd4e2fc630669425c74e282e346da6c22e0b8077468335b24aed5d28210ee589d137ecc80b5
   languageName: node
   linkType: hard
 
@@ -866,35 +842,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/cli@npm:7.4.1":
-  version: 7.4.1
-  resolution: "@nestjs/cli@npm:7.4.1"
+"@nestjs/cli@npm:7.5.1":
+  version: 7.5.1
+  resolution: "@nestjs/cli@npm:7.5.1"
   dependencies:
-    "@angular-devkit/core": 9.1.9
-    "@angular-devkit/schematics": 9.1.9
-    "@angular-devkit/schematics-cli": 0.901.9
-    "@nestjs/schematics": ^7.0.1
-    "@types/webpack": 4.41.17
+    "@angular-devkit/core": 10.0.7
+    "@angular-devkit/schematics": 10.0.7
+    "@angular-devkit/schematics-cli": 0.1000.7
+    "@nestjs/schematics": ^7.1.0
+    "@types/webpack": 4.41.21
     chalk: 3.0.0
-    chokidar: 3.4.0
+    chokidar: 3.4.2
     cli-table3: 0.5.1
     commander: 4.1.1
-    fork-ts-checker-webpack-plugin: 5.0.4
-    inquirer: 7.2.0
+    fork-ts-checker-webpack-plugin: 5.1.0
+    inquirer: 7.3.3
     node-emoji: 1.10.0
-    ora: 4.0.4
+    ora: 5.0.0
     os-name: 3.1.0
     rimraf: 3.0.2
     shelljs: 0.8.4
     tree-kill: 1.2.2
     tsconfig-paths: 3.9.0
-    tsconfig-paths-webpack-plugin: 3.2.0
+    tsconfig-paths-webpack-plugin: 3.3.0
     typescript: ^3.6.4
-    webpack: 4.43.0
-    webpack-node-externals: 1.7.2
+    webpack: 4.44.1
+    webpack-node-externals: 2.5.1
   bin:
     nest: bin/nest.js
-  checksum: 9f3befbef026451ea737428272b4199e1a0c47f6d88051f23b9f33fb9618d6f3e27404a129b247d998686320a7208bb1270ce2653a77c7e1e145474460e22714
+  checksum: dd73799479aaf1e4f34ab6fee003b4192869f516a2596e14c165f9c8405c563db2c5445f8be6d6b0cd768b90a8d5cc5069f66244e227c166a5d52d90f61de80c
   languageName: node
   linkType: hard
 
@@ -968,7 +944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/schematics@npm:7.1.2":
+"@nestjs/schematics@npm:7.1.2, @nestjs/schematics@npm:^7.1.0":
   version: 7.1.2
   resolution: "@nestjs/schematics@npm:7.1.2"
   dependencies:
@@ -979,19 +955,6 @@ __metadata:
   peerDependencies:
     typescript: ^3.4.5
   checksum: 945b6e11973d9feb24fe94f20e76632784b3fae25236a56ea8e411c4857c74bd3f5d61dc04040c6e1154be791c7ef91a516088a5778af627a7829861fc33cc9a
-  languageName: node
-  linkType: hard
-
-"@nestjs/schematics@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "@nestjs/schematics@npm:7.0.1"
-  dependencies:
-    "@angular-devkit/core": 9.1.7
-    "@angular-devkit/schematics": 9.1.7
-    fs-extra: 9.0.0
-  peerDependencies:
-    typescript: ^3.4.5
-  checksum: d2e6097a9c8dee8609f033a402d18a02d8c4906989286d5981b3cd13be91762a73e385ce336d8d568b1113022f223248569eeba9a6d4d4c69abdd3049f5b0849
   languageName: node
   linkType: hard
 
@@ -1189,13 +1152,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/schematics@npm:0.901.9":
-  version: 0.901.9
-  resolution: "@schematics/schematics@npm:0.901.9"
+"@schematics/schematics@npm:0.1000.7":
+  version: 0.1000.7
+  resolution: "@schematics/schematics@npm:0.1000.7"
   dependencies:
-    "@angular-devkit/core": 9.1.9
-    "@angular-devkit/schematics": 9.1.9
-  checksum: cb6fa160d088c77d59022eafdd453b264d66883955607b745dc6758afc2e2bbc816c188c00ce4425280b67aafb95c3fe3aaf451de7fc6b8c40dade673c0f5989
+    "@angular-devkit/core": 10.0.7
+    "@angular-devkit/schematics": 10.0.7
+  checksum: 49170fa5a5d4401925181ef6f1df446e874a8317558ff7ed09d056e4506ee9b38360ad6a22d6044d3e1828f7872f2d689d49511911bc4a140bb25ba65a4d1e9f
   languageName: node
   linkType: hard
 
@@ -1456,6 +1419,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/json-schema@npm:^7.0.4, @types/json-schema@npm:^7.0.5":
+  version: 7.0.6
+  resolution: "@types/json-schema@npm:7.0.6"
+  checksum: 820cabe35ac915b93e38b0c01957e5c49d7d9f69251dddfbf39af0ff4fe24f6e08b39e55603e0d212dea7bcaa383b1218b58a738d1c02013dc22df06547ff238
+  languageName: node
+  linkType: hard
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -1597,9 +1567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:4.41.17":
-  version: 4.41.17
-  resolution: "@types/webpack@npm:4.41.17"
+"@types/webpack@npm:4.41.21":
+  version: 4.41.21
+  resolution: "@types/webpack@npm:4.41.21"
   dependencies:
     "@types/anymatch": "*"
     "@types/node": "*"
@@ -1607,7 +1577,7 @@ __metadata:
     "@types/uglify-js": "*"
     "@types/webpack-sources": "*"
     source-map: ^0.6.0
-  checksum: 5514c2279c27b8c020b4909e793d59a5b12b31c5bb2f6f8f6d6a42cc119521bc282d8b50df2b5c4d7229519a1f66e537634423763cd25a4e3ea38b50e0df3921
+  checksum: 3a02667221be2d8ecdb2da8d78e74dbc6ef216a4f0c636017e9dbe243198ed80a258e0c9f9e0613eea76efe77b5293f6f052dee4d26adc3dd54e56f38a2031f2
   languageName: node
   linkType: hard
 
@@ -2090,18 +2060,6 @@ __metadata:
   peerDependencies:
     ajv: ^6.9.1
   checksum: ae1e6775a2087591cfb12d2905c264fca9f2128eb7a951be7e56ffd895b2f9670d9ef79c8c536cfb507ce8d651ce265d89cb08896c8808ce74a884a1648de5e1
-  languageName: node
-  linkType: hard
-
-"ajv@npm:6.12.0":
-  version: 6.12.0
-  resolution: "ajv@npm:6.12.0"
-  dependencies:
-    fast-deep-equal: ^3.1.1
-    fast-json-stable-stringify: ^2.0.0
-    json-schema-traverse: ^0.4.1
-    uri-js: ^4.2.2
-  checksum: aed1e0ab1b906913e2b466b1a0372ee5e4fe2927802ff81bcce350f482b0546cdb49df6ab551adad191ac19766007cdaf6c2d8b70e992528b806d9a8275ce2bd
   languageName: node
   linkType: hard
 
@@ -2891,7 +2849,7 @@ __metadata:
     "@compodoc/compodoc": 1.1.11
     "@eclass/semantic-release-docker": 1.0.4
     "@golevelup/nestjs-rabbitmq": 1.15.1
-    "@nestjs/cli": 7.4.1
+    "@nestjs/cli": 7.5.1
     "@nestjs/common": 7.4.4
     "@nestjs/config": 0.5.0
     "@nestjs/core": 7.4.4
@@ -3459,6 +3417,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "chalk@npm:4.1.0"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: f860285b419f9e925c2db0f45ffa88aa8794c14b80cc5d01ff30930bcfc384996606362706f0829cf557f6d36152a5fb2d227ad63c4bc90e2ec9e9dbed4a3c07
+  languageName: node
+  linkType: hard
+
 "char-regex@npm:^1.0.2":
   version: 1.0.2
   resolution: "char-regex@npm:1.0.2"
@@ -3515,9 +3483,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:3.4.0, chokidar@npm:^3.1.1, chokidar@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "chokidar@npm:3.4.0"
+"chokidar@npm:3.4.2, chokidar@npm:^3.4.1":
+  version: 3.4.2
+  resolution: "chokidar@npm:3.4.2"
   dependencies:
     anymatch: ~3.1.1
     braces: ~3.0.2
@@ -3530,7 +3498,7 @@ __metadata:
   dependenciesMeta:
     fsevents:
       optional: true
-  checksum: e190168a5966b88f3b4749eed413a7e4482b8611e366f72b89d6435e1a1c58484384d91d722c9cdea64cdde0e14f190058ba36da624dce920804d3e82651431a
+  checksum: a394c13d28f3a7df6c3d8ca80791599523c654a9e08bec2bb6d0f44a6d74c61f9b46cd871401b8694e57e909055280adad898b93f4269d53b8b0e0c02f02dc12
   languageName: node
   linkType: hard
 
@@ -3554,6 +3522,25 @@ __metadata:
     fsevents:
       optional: true
   checksum: 0758dcc7c6c7ace5924cf3c68088210932d391ab41026376b0adb8e07013ac87232e029f13468dfc9ca4dd59adae62a2b7eaedebb6c4e4f0ba92cbf3ac9e3721
+  languageName: node
+  linkType: hard
+
+"chokidar@npm:^3.1.1":
+  version: 3.4.0
+  resolution: "chokidar@npm:3.4.0"
+  dependencies:
+    anymatch: ~3.1.1
+    braces: ~3.0.2
+    fsevents: ~2.1.2
+    glob-parent: ~5.1.0
+    is-binary-path: ~2.1.0
+    is-glob: ~4.0.1
+    normalize-path: ~3.0.0
+    readdirp: ~3.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: e190168a5966b88f3b4749eed413a7e4482b8611e366f72b89d6435e1a1c58484384d91d722c9cdea64cdde0e14f190058ba36da624dce920804d3e82651431a
   languageName: node
   linkType: hard
 
@@ -3724,6 +3711,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cli-spinners@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "cli-spinners@npm:2.4.0"
+  checksum: c32291dbcc98363ab22486084354a46e6fd7b9471d0b1c89a5cba1a62a96233f6519cca0ab21a16884f78fe034a7038597eb61e56f3fe11a592c6c2495925600
+  languageName: node
+  linkType: hard
+
 "cli-table3@npm:0.5.1, cli-table3@npm:^0.5.0, cli-table3@npm:^0.5.1":
   version: 0.5.1
   resolution: "cli-table3@npm:0.5.1"
@@ -3751,6 +3745,13 @@ __metadata:
   version: 2.2.1
   resolution: "cli-width@npm:2.2.1"
   checksum: f7c830bddca78d8b2706c213d6ffa4e751988b7f70ec3e871c97a87e12a9e17e9f9652f13a5bfcea0e2e8dbae1da4b0939d59cf2bf8c36979541c624043d6315
+  languageName: node
+  linkType: hard
+
+"cli-width@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "cli-width@npm:3.0.0"
+  checksum: 6e5bc71774e202bfd3782d0be56eacee9462bfc7dc4a601dad10636163ab9c8abe625e760b0f28e590f9044bc23df3927ee3406f8c961fd2e4a51ef3f67fab2f
   languageName: node
   linkType: hard
 
@@ -5033,7 +5034,7 @@ cors@latest:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^4.0.0, enhanced-resolve@npm:^4.1.0":
+"enhanced-resolve@npm:^4.0.0":
   version: 4.1.1
   resolution: "enhanced-resolve@npm:4.1.1"
   dependencies:
@@ -5041,6 +5042,17 @@ cors@latest:
     memory-fs: ^0.5.0
     tapable: ^1.0.0
   checksum: 613ad8cf82b9aba7180782e50539c046b92fff5e6b60e93c6e37e5f2c7eef26abf8f965efc4b2fe6d600dccb6baf48caff64cd4f7e8267e1ca5ca323e5fdde9d
+  languageName: node
+  linkType: hard
+
+"enhanced-resolve@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "enhanced-resolve@npm:4.3.0"
+  dependencies:
+    graceful-fs: ^4.1.2
+    memory-fs: ^0.5.0
+    tapable: ^1.0.0
+  checksum: aecdc0b2085990d84682c2ef829d0df3fe52511ac6353b2210ff138892fa36e524e117e1a534e0d5e51853cb1a9cce8941a68c81ed51a4989d2b041739aab65b
   languageName: node
   linkType: hard
 
@@ -6208,21 +6220,22 @@ cors@latest:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:5.0.4":
-  version: 5.0.4
-  resolution: "fork-ts-checker-webpack-plugin@npm:5.0.4"
+"fork-ts-checker-webpack-plugin@npm:5.1.0":
+  version: 5.1.0
+  resolution: "fork-ts-checker-webpack-plugin@npm:5.1.0"
   dependencies:
     "@babel/code-frame": ^7.8.3
-    chalk: ^2.4.1
+    "@types/json-schema": ^7.0.5
+    chalk: ^4.1.0
     cosmiconfig: ^6.0.0
     deepmerge: ^4.2.2
     fs-extra: ^9.0.0
     memfs: ^3.1.2
     minimatch: ^3.0.4
-    schema-utils: 1.0.0
-    semver: ^5.6.0
+    schema-utils: 2.7.0
+    semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: 2c843110236791024675a5550b295ed84daa23c06b217db6e0f6441a396c8cf5d697dbd1c9da882f90a7615ae925c2e0952c2acda5b985d44138a277defb7983
+  checksum: 704def03dd5565d163a17738f1767a19f6a1dea89a76e7393fb335099bafb6ecc46a9f4a0ada73d651ed1765cdef9e81db134897ea1d9f55e2954bda70f885ed
   languageName: node
   linkType: hard
 
@@ -6312,18 +6325,6 @@ cors@latest:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:9.0.0, fs-extra@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "fs-extra@npm:9.0.0"
-  dependencies:
-    at-least-node: ^1.0.0
-    graceful-fs: ^4.2.0
-    jsonfile: ^6.0.1
-    universalify: ^1.0.0
-  checksum: 518828d6e5c33d71cb075f3c25629f857b4a0d1fca5c3b6c8cdee876fa972e0661003491fc7d49d9e4d1c19aec8af6edf045e849a1110f2f879880975f4f6955
-  languageName: node
-  linkType: hard
-
 "fs-extra@npm:9.0.1":
   version: 9.0.1
   resolution: "fs-extra@npm:9.0.1"
@@ -6366,6 +6367,18 @@ cors@latest:
     jsonfile: ^4.0.0
     universalify: ^0.1.0
   checksum: 056a96d4f55ab8728b021e251175a4a6440d1edb5845e6c2e8e010019bde3e63de188a0eb99386c21c71804ca1a571cd6e08f507971f10a2bc4f4f7667720fa4
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "fs-extra@npm:9.0.0"
+  dependencies:
+    at-least-node: ^1.0.0
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^1.0.0
+  checksum: 518828d6e5c33d71cb075f3c25629f857b4a0d1fca5c3b6c8cdee876fa972e0661003491fc7d49d9e4d1c19aec8af6edf045e849a1110f2f879880975f4f6955
   languageName: node
   linkType: hard
 
@@ -7337,24 +7350,24 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"inquirer@npm:7.2.0":
-  version: 7.2.0
-  resolution: "inquirer@npm:7.2.0"
+"inquirer@npm:7.3.3":
+  version: 7.3.3
+  resolution: "inquirer@npm:7.3.3"
   dependencies:
     ansi-escapes: ^4.2.1
-    chalk: ^3.0.0
+    chalk: ^4.1.0
     cli-cursor: ^3.1.0
-    cli-width: ^2.0.0
+    cli-width: ^3.0.0
     external-editor: ^3.0.3
     figures: ^3.0.0
-    lodash: ^4.17.15
+    lodash: ^4.17.19
     mute-stream: 0.0.8
     run-async: ^2.4.0
-    rxjs: ^6.5.3
+    rxjs: ^6.6.0
     string-width: ^4.1.0
     strip-ansi: ^6.0.0
     through: ^2.3.6
-  checksum: d1b1a7a96241656431573acc08799dc61736e2b8b01f852e4a6c7740f9520242ea281812c45b388b51e4ade264153415ef95442741a858d051c000af3d1be6ed
+  checksum: fa0cbd9594a04e04c5c10a806e9a86b23986acdc7d07c75afdbc03412ff03b1d201efa83d9d64929afe99a901a093bfc9ae7ab13560f8e557cb98eddbe5bf37d
   languageName: node
   linkType: hard
 
@@ -9283,6 +9296,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"log-symbols@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "log-symbols@npm:4.0.0"
+  dependencies:
+    chalk: ^4.0.0
+  checksum: 2cbdb0427d1853f2bd36645bff42aaca200902284f28aadacb3c0fa4c8c43fe6bfb71b5d61ab08b67063d066d7c55b8bf5fbb43b03e4a150dbcdd643e9cd1dbf
+  languageName: node
+  linkType: hard
+
 "loglevel-plugin-prefix@npm:^0.8.4":
   version: 0.8.4
   resolution: "loglevel-plugin-prefix@npm:0.8.4"
@@ -10809,6 +10831,22 @@ opn@latest:
     strip-ansi: ^6.0.0
     wcwidth: ^1.0.1
   checksum: 120595347066b1749b099015cbee3bda201904b5eff41f72ada2d06a0ebbd54bb2d765d3bfe8da09c61bc1894364e689cb085f65f71d95768acaf4f3ae274a91
+  languageName: node
+  linkType: hard
+
+"ora@npm:5.0.0":
+  version: 5.0.0
+  resolution: "ora@npm:5.0.0"
+  dependencies:
+    chalk: ^4.1.0
+    cli-cursor: ^3.1.0
+    cli-spinners: ^2.4.0
+    is-interactive: ^1.0.0
+    log-symbols: ^4.0.0
+    mute-stream: 0.0.8
+    strip-ansi: ^6.0.0
+    wcwidth: ^1.0.1
+  checksum: ba2c5f92aada785463e47e1351eb2b49380fb1cd8e02bee22b353ca6dc15f47dd5b672fe11dd57262b30de93ca5b6b012c574bdc6f40a35b34f73ebdc8b216ba
   languageName: node
   linkType: hard
 
@@ -12610,21 +12648,21 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"rxjs@npm:6.6.3":
-  version: 6.6.3
-  resolution: "rxjs@npm:6.6.3"
-  dependencies:
-    tslib: ^1.9.0
-  checksum: 61a3da6db947f69b7d805df3a619d8f60678b7372c4d571dd63e45ef3532be984a88307ea0aa2cd8d2578b62c3c022186e8da9dca47c9c1b8c9ecba6f5581deb
-  languageName: node
-  linkType: hard
-
-"rxjs@npm:^6.5.3":
+"rxjs@npm:6.5.5, rxjs@npm:^6.5.3":
   version: 6.5.5
   resolution: "rxjs@npm:6.5.5"
   dependencies:
     tslib: ^1.9.0
   checksum: a3882e0374af8aa32459ea9219fdcf24cb5a943cdf35f50da4ded48435ec474647c315b85c3e7b703927a55689e54037538cbd24789548d07b74e4865c4adb78
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:6.6.3, rxjs@npm:^6.6.0":
+  version: 6.6.3
+  resolution: "rxjs@npm:6.6.3"
+  dependencies:
+    tslib: ^1.9.0
+  checksum: 61a3da6db947f69b7d805df3a619d8f60678b7372c4d571dd63e45ef3532be984a88307ea0aa2cd8d2578b62c3c022186e8da9dca47c9c1b8c9ecba6f5581deb
   languageName: node
   linkType: hard
 
@@ -12702,7 +12740,18 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:1.0.0, schema-utils@npm:^1.0.0":
+"schema-utils@npm:2.7.0":
+  version: 2.7.0
+  resolution: "schema-utils@npm:2.7.0"
+  dependencies:
+    "@types/json-schema": ^7.0.4
+    ajv: ^6.12.2
+    ajv-keywords: ^3.4.1
+  checksum: 5d3e7c9e532712bbe0b7ba2f0bdbebc88ca3066c00ceb89877667c3c7b7ea5ee65e0ff7ffbf5164ebda43b0726166d4d39b382e91e9554b7ad2f6b06e77f947d
+  languageName: node
+  linkType: hard
+
+"schema-utils@npm:^1.0.0":
   version: 1.0.0
   resolution: "schema-utils@npm:1.0.0"
   dependencies:
@@ -14413,14 +14462,14 @@ send@latest:
   languageName: node
   linkType: hard
 
-"tsconfig-paths-webpack-plugin@npm:3.2.0":
-  version: 3.2.0
-  resolution: "tsconfig-paths-webpack-plugin@npm:3.2.0"
+"tsconfig-paths-webpack-plugin@npm:3.3.0":
+  version: 3.3.0
+  resolution: "tsconfig-paths-webpack-plugin@npm:3.3.0"
   dependencies:
     chalk: ^2.3.0
     enhanced-resolve: ^4.0.0
     tsconfig-paths: ^3.4.0
-  checksum: 7e2889c2985b964429fa8ed7d0a75ef6b1d2033b2f88b55cef80db7d95ca3c37c1e785689112cb12a969fd357cb727c0bfbdd96fa49f75afcedcafc68c27837a
+  checksum: 4ae21d85e211610c4f7246930ebc265135f37c53f63d32733ecb2e0a3c218ba9ee6e86cebf60b86f7b5e5c39ba5421d7319afbd7cc640b5d927ee4472bb7a1ab
   languageName: node
   linkType: hard
 
@@ -15224,11 +15273,11 @@ typescript@^3.6.4:
   languageName: node
   linkType: hard
 
-"watchpack@npm:^1.6.1":
-  version: 1.7.2
-  resolution: "watchpack@npm:1.7.2"
+"watchpack@npm:^1.7.4":
+  version: 1.7.4
+  resolution: "watchpack@npm:1.7.4"
   dependencies:
-    chokidar: ^3.4.0
+    chokidar: ^3.4.1
     graceful-fs: ^4.1.2
     neo-async: ^2.5.0
     watchpack-chokidar2: ^2.0.0
@@ -15237,7 +15286,7 @@ typescript@^3.6.4:
       optional: true
     watchpack-chokidar2:
       optional: true
-  checksum: a9d630dd29279b91bb1b1dd319e9142f13906e8cc973c860e0662828cff84e2a3235a66da62759cb4f12dc76a6f672760e62b2c8a6406ff80d5e4977b5717e83
+  checksum: 61876d6e60ddb1e9b0a6143c65a4453543bb1a27638254635d179d4681f15af200de9a61c1a3faec220a29e41ca37381e604345ffa9d48c064a29cff4cb25732
   languageName: node
   linkType: hard
 
@@ -15264,10 +15313,10 @@ typescript@^3.6.4:
   languageName: node
   linkType: hard
 
-"webpack-node-externals@npm:1.7.2":
-  version: 1.7.2
-  resolution: "webpack-node-externals@npm:1.7.2"
-  checksum: 2ae03f05618ffc2cdafbbfd9ba2efb723629e4a3def722801bffc8c386f9c27d46e224849781951e64d9a540623f9db5cfcb96669b4a45d66e6679f59c03302f
+"webpack-node-externals@npm:2.5.1":
+  version: 2.5.1
+  resolution: "webpack-node-externals@npm:2.5.1"
+  checksum: 3497be1d1631760fd6849de9f7ec1e6f337a17b5b095d51a214a012193a382c56fc2fe9cae476bdc63f859edf2a3f5fab13d31b6220165d07940a18ee1b39099
   languageName: node
   linkType: hard
 
@@ -15281,9 +15330,9 @@ typescript@^3.6.4:
   languageName: node
   linkType: hard
 
-"webpack@npm:4.43.0":
-  version: 4.43.0
-  resolution: "webpack@npm:4.43.0"
+"webpack@npm:4.44.1":
+  version: 4.44.1
+  resolution: "webpack@npm:4.44.1"
   dependencies:
     "@webassemblyjs/ast": 1.9.0
     "@webassemblyjs/helper-module-context": 1.9.0
@@ -15293,7 +15342,7 @@ typescript@^3.6.4:
     ajv: ^6.10.2
     ajv-keywords: ^3.4.1
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^4.1.0
+    enhanced-resolve: ^4.3.0
     eslint-scope: ^4.0.3
     json-parse-better-errors: ^1.0.2
     loader-runner: ^2.4.0
@@ -15306,11 +15355,16 @@ typescript@^3.6.4:
     schema-utils: ^1.0.0
     tapable: ^1.1.3
     terser-webpack-plugin: ^1.4.3
-    watchpack: ^1.6.1
+    watchpack: ^1.7.4
     webpack-sources: ^1.4.1
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+    webpack-command:
+      optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 9f1e6375ba28368b4a0d02a0807aa4e148b101244d7ab698c99ac478e3043cdacf7d7c89aa7d4af9549509be7d23878ef863bd6a9540e89a18dd2c04e82e2b4f
+  checksum: d4d140010bdf1fe4a5ef5435733e4b4fb71081cafd5e995adca0ca6259e271c7b51af909477e03bbbeb35487bd399a672bb0bc4a4726baebac059444b489b412
   languageName: node
   linkType: hard
 
