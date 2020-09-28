@@ -2815,7 +2815,7 @@ __metadata:
     prettier: 2.0.5
     reflect-metadata: 0.1.13
     rimraf: 3.0.2
-    rxjs: 6.6.2
+    rxjs: 6.6.3
     semantic-release: 17.1.2
     semantic-release-slack-bot: 1.6.2
     supertest: 4.0.2
@@ -12465,12 +12465,12 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"rxjs@npm:6.6.2":
-  version: 6.6.2
-  resolution: "rxjs@npm:6.6.2"
+"rxjs@npm:6.6.3":
+  version: 6.6.3
+  resolution: "rxjs@npm:6.6.3"
   dependencies:
     tslib: ^1.9.0
-  checksum: 9b16cd36093b87ce454726f14783e204b80431e6657d36191877e4d9d4b0713c73e5ee8b45be336b081d47b10cd016b3812ea3bd4b27bf87942b1410aa18ee04
+  checksum: 61a3da6db947f69b7d805df3a619d8f60678b7372c4d571dd63e45ef3532be984a88307ea0aa2cd8d2578b62c3c022186e8da9dca47c9c1b8c9ecba6f5581deb
   languageName: node
   linkType: hard
 
