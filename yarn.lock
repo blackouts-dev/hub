@@ -950,7 +950,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^7.4.4":
+"@nestjs/platform-fastify@npm:7.4.4":
   version: 7.4.4
   resolution: "@nestjs/platform-fastify@npm:7.4.4"
   dependencies:
@@ -2895,7 +2895,7 @@ __metadata:
     "@nestjs/common": 7.4.4
     "@nestjs/config": 0.5.0
     "@nestjs/core": 7.4.4
-    "@nestjs/platform-fastify": ^7.4.4
+    "@nestjs/platform-fastify": 7.4.4
     "@nestjs/schematics": 7.1.2
     "@nestjs/testing": 7.4.4
     "@nestjs/typeorm": 7.1.4
