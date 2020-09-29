@@ -2888,7 +2888,7 @@ __metadata:
     semantic-release: 17.1.2
     semantic-release-slack-bot: 1.6.2
     supertest: 5.0.0
-    ts-jest: 26.4.0
+    ts-jest: 26.4.1
     ts-loader: 8.0.4
     ts-node: 9.0.0
     tsconfig-paths: 3.9.0
@@ -14395,9 +14395,9 @@ send@latest:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:26.4.0":
-  version: 26.4.0
-  resolution: "ts-jest@npm:26.4.0"
+"ts-jest@npm:26.4.1":
+  version: 26.4.1
+  resolution: "ts-jest@npm:26.4.1"
   dependencies:
     "@types/jest": 26.x
     bs-logger: 0.x
@@ -14415,7 +14415,7 @@ send@latest:
     typescript: ">=3.8 <5.0"
   bin:
     ts-jest: cli.js
-  checksum: 1c3d1aad6d62d016eaad42fdaeb9592fed2c19b3ed11a284667c1f8cfc74e8b7fd707fea3af6ca361b26b4e850a7b51a7bc856748061f4256193f3c11dec0f3a
+  checksum: d57275098b82156a75fd4b67903822ea9fa2d523d2ec0ef407bb7eb60f611af1b5a0f7d25531dbfc436e29c3baa7e0fcdeeb2f4b19d94b1aa70a3566114c132f
   languageName: node
   linkType: hard
 
