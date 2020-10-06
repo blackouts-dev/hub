@@ -580,9 +580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@golevelup/nestjs-rabbitmq@npm:1.15.1":
-  version: 1.15.1
-  resolution: "@golevelup/nestjs-rabbitmq@npm:1.15.1"
+"@golevelup/nestjs-rabbitmq@npm:1.15.2":
+  version: 1.15.2
+  resolution: "@golevelup/nestjs-rabbitmq@npm:1.15.2"
   dependencies:
     "@golevelup/nestjs-common": ^1.4.2
     "@golevelup/nestjs-discovery": ^2.3.1
@@ -590,7 +590,7 @@ __metadata:
     amqp-connection-manager: ^3.0.0
     amqplib: ^0.5.3
     uuid: ^3.3.2
-  checksum: 9b28e1f84179d93db07a694f908a5d096d2c44dfefb9a075e64e0794bc6bebaef4b0ea05d12a10158beed83bb19cd19c1f36eda02695ccbda20a07bb48609c38
+  checksum: 5eec268c178afeebb1a2a1d80c80af88d46c432fcfaed9a55331f53c658b04c292a43de2f10f5ae3206b5172734e775110a7a6fb7945cd3272bb7843425167b9
   languageName: node
   linkType: hard
 
@@ -2865,7 +2865,7 @@ __metadata:
   dependencies:
     "@compodoc/compodoc": 1.1.11
     "@eclass/semantic-release-docker": 1.0.5
-    "@golevelup/nestjs-rabbitmq": 1.15.1
+    "@golevelup/nestjs-rabbitmq": 1.15.2
     "@nestjs/cli": 7.5.1
     "@nestjs/common": 7.4.4
     "@nestjs/config": 0.5.0
