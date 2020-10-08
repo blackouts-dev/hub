@@ -2887,7 +2887,7 @@ __metadata:
     eslint-config-prettier: 6.12.0
     eslint-plugin-import: 2.22.1
     jest: 26.4.2
-    pg: 8.4.0
+    pg: 8.4.1
     prettier: 2.1.2
     reflect-metadata: 0.1.13
     rimraf: 3.0.2
@@ -11465,9 +11465,9 @@ opn@latest:
   languageName: node
   linkType: hard
 
-"pg@npm:8.4.0":
-  version: 8.4.0
-  resolution: "pg@npm:8.4.0"
+"pg@npm:8.4.1":
+  version: 8.4.1
+  resolution: "pg@npm:8.4.1"
   dependencies:
     buffer-writer: 2.0.0
     packet-reader: 1.0.0
@@ -11481,7 +11481,7 @@ opn@latest:
   peerDependenciesMeta:
     pg-native:
       optional: true
-  checksum: f80c84e7b70767e77921c6f5f54225dcb0dd742c3f3e37b54492a59f5f6a78fd3d916219e3db9b8f92ff0b770f5ce55ec136717873a700042aa079ecf0d78f07
+  checksum: 56e396cdadbf43a91497a6dfaeda3c782f7dc88a6217a869e52b6a66c9db727b20751768f49c14e6a966ce2a768b984acad6418c8a079ab558b78cef24dd2dcc
   languageName: node
   linkType: hard
 
