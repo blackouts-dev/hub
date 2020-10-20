@@ -845,6 +845,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/types@npm:^26.6.0":
+  version: 26.6.0
+  resolution: "@jest/types@npm:26.6.0"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^15.0.0
+    chalk: ^4.0.0
+  checksum: 6c2f93e5202c75cb83aced7a59a4f2eb9d0f29ee4dc7bc7cef02af0d778c49bdc64528858b8d228602e3c30076da8f1cb9864f1d1cad519699bf81b6db038d7a
+  languageName: node
+  linkType: hard
+
 "@mrmlnc/readdir-enhanced@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mrmlnc/readdir-enhanced@npm:2.2.1"
@@ -1431,7 +1444,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.0.14, @types/jest@npm:26.x":
+"@types/jest@npm:26.0.15":
+  version: 26.0.15
+  resolution: "@types/jest@npm:26.0.15"
+  dependencies:
+    jest-diff: ^26.0.0
+    pretty-format: ^26.0.0
+  checksum: 42fe39d582de1d79f9d6b96f3dee43ba2e9336c9d1f0e31c4f2f58bbaa059c9f4295c42a213ea9450f91400515a3abde4aae2673522fc6e11ea33f7e21c25dbe
+  languageName: node
+  linkType: hard
+
+"@types/jest@npm:26.x":
   version: 26.0.14
   resolution: "@types/jest@npm:26.0.14"
   dependencies:
@@ -2897,7 +2920,7 @@ __metadata:
     "@nestjs/testing": 7.4.4
     "@nestjs/typeorm": 7.1.4
     "@semantic-release/exec": 5.0.0
-    "@types/jest": 26.0.14
+    "@types/jest": 26.0.15
     "@types/node": 12.12.68
     "@types/supertest": 2.0.10
     "@typescript-eslint/eslint-plugin": 4.4.1
@@ -8185,6 +8208,18 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"jest-diff@npm:^26.0.0":
+  version: 26.6.0
+  resolution: "jest-diff@npm:26.6.0"
+  dependencies:
+    chalk: ^4.0.0
+    diff-sequences: ^26.5.0
+    jest-get-type: ^26.3.0
+    pretty-format: ^26.6.0
+  checksum: 973b03e3d4086b8116264fafe7a174c1da40bc7c8bd2bebdadd27c453062fec7ceeb194f8caf8bc94e57ab4dbed4f10d777078c9dbc21dec21cae1fa47bada92
+  languageName: node
+  linkType: hard
+
 "jest-diff@npm:^26.5.2":
   version: 26.5.2
   resolution: "jest-diff@npm:26.5.2"
@@ -11718,6 +11753,18 @@ opn@latest:
     ansi-styles: ^4.0.0
     react-is: ^16.12.0
   checksum: f7cc631d51e22c809d429d20facfd886ba0b212d419d153467872f68688256c2c55563bf70e943b7347ec9180b41a1d19c4235dc171850f9d5382a52959c0245
+  languageName: node
+  linkType: hard
+
+"pretty-format@npm:^26.0.0, pretty-format@npm:^26.6.0":
+  version: 26.6.0
+  resolution: "pretty-format@npm:26.6.0"
+  dependencies:
+    "@jest/types": ^26.6.0
+    ansi-regex: ^5.0.0
+    ansi-styles: ^4.0.0
+    react-is: ^16.12.0
+  checksum: dc9a95a90e3ec3f3999afa422a25cff53ccdfe927c95c694b0559c14bede20355b417c9621cbeca4d57cd4bef69294b86a1ed180cd9a43231d708fcadf951b5d
   languageName: node
   linkType: hard
 
