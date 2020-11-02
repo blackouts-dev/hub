@@ -2951,7 +2951,7 @@ __metadata:
     ts-loader: 8.0.7
     ts-node: 9.0.0
     tsconfig-paths: 3.9.0
-    typeorm: 0.2.28
+    typeorm: 0.2.29
     typescript: 4.0.5
   languageName: unknown
   linkType: soft
@@ -14741,9 +14741,9 @@ send@latest:
   languageName: node
   linkType: hard
 
-"typeorm@npm:0.2.28":
-  version: 0.2.28
-  resolution: "typeorm@npm:0.2.28"
+"typeorm@npm:0.2.29":
+  version: 0.2.29
+  resolution: "typeorm@npm:0.2.29"
   dependencies:
     "@sqltools/formatter": 1.2.2
     app-root-path: ^3.0.0
@@ -14763,7 +14763,7 @@ send@latest:
     yargs: ^16.0.3
   bin:
     typeorm: cli.js
-  checksum: 3f931c698ed857e420da31f31ddcf1c59deafc40bf6cc5927602d41868a1c85fde8058db995e24f55aa74b00bf7f6a325fa2cbb6ebcd9740a0ef4146a48d43c6
+  checksum: c70f986138d4378425e9e02f6674a6124a392180cfaea6528b66af3a0aeb0b8f71a9f0287635b14fe3836c94669c3f1912c5ea30c25c2b69df5fee2429ac86f9
   languageName: node
   linkType: hard
 
