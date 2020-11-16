@@ -5,6 +5,19 @@ __metadata:
   version: 4
   cacheKey: 6
 
+"@angular-devkit/core@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@angular-devkit/core@npm:11.0.0"
+  dependencies:
+    ajv: 6.12.6
+    fast-json-stable-stringify: 2.1.0
+    magic-string: 0.25.7
+    rxjs: 6.6.3
+    source-map: 0.7.3
+  checksum: c9e78b8683e3eece6711bdcbe8be3bfaf708d4d23e75222e672fc37adfebe56825f01e23aee2a89d983eb9dcac9138fc37f0f0c3bdb1be75ca79b68b4c52570f
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/core@npm:11.0.1":
   version: 11.0.1
   resolution: "@angular-devkit/core@npm:11.0.1"
@@ -45,6 +58,17 @@ __metadata:
   bin:
     schematics: bin/schematics.js
   checksum: 07f5bc2440943c2996912ad16b93d4152aba3f04d87008c022eea6b145b5e449615a760ea9d9e8ee12c4415dc4d1328769836e70f27eb90469e4032898e35cf8
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@angular-devkit/schematics@npm:11.0.0"
+  dependencies:
+    "@angular-devkit/core": 11.0.0
+    ora: 5.1.0
+    rxjs: 6.6.3
+  checksum: 35a37231b082e9653f168568211a025b9749acde50ebf1a791032478b75862b2235abd3945efe4a4e49e0cc664e3aae558c080032cba0bd12e8e4d6d6cd34239
   languageName: node
   linkType: hard
 
@@ -970,17 +994,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/schematics@npm:7.1.4":
-  version: 7.1.4
-  resolution: "@nestjs/schematics@npm:7.1.4"
+"@nestjs/schematics@npm:7.2.2":
+  version: 7.2.2
+  resolution: "@nestjs/schematics@npm:7.2.2"
   dependencies:
-    "@angular-devkit/core": 9.1.12
-    "@angular-devkit/schematics": 9.1.12
+    "@angular-devkit/core": 11.0.0
+    "@angular-devkit/schematics": 11.0.0
     fs-extra: 9.0.1
     pluralize: 8.0.0
   peerDependencies:
-    typescript: ^3.4.5
-  checksum: 6cfd45ecb0b75f5d9c205f808e9d8ab2edbd02983ae6fc9b81ef35c7467d04ae589f5716d04ad373b8e044478903747f7913d48476b7a83443d1320a7625cdb0
+    typescript: ^3.4.5 || ^4.0.0
+  checksum: 48c1f86f2541b76303c631f7eec8f2e9f1a1d99be3a8a2911c6e5a72b4d81d72ac635d6a36d4a0e799174758cbe1f39626498207ef35ce3c1ce66e050d5890f3
   languageName: node
   linkType: hard
 
@@ -2955,7 +2979,7 @@ __metadata:
     "@nestjs/config": 0.5.0
     "@nestjs/core": 7.4.4
     "@nestjs/platform-fastify": 7.4.4
-    "@nestjs/schematics": 7.1.4
+    "@nestjs/schematics": 7.2.2
     "@nestjs/testing": 7.4.4
     "@nestjs/typeorm": 7.1.4
     "@semantic-release/exec": 5.0.0
