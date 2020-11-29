@@ -2977,7 +2977,7 @@ __metadata:
     rimraf: 3.0.2
     rxjs: 6.6.3
     semantic-release: 17.2.4
-    semantic-release-slack-bot: 1.6.2
+    semantic-release-slack-bot: 1.7.0
     supertest: 5.0.0
     ts-jest: 26.4.4
     ts-loader: 8.0.11
@@ -12429,16 +12429,16 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"semantic-release-slack-bot@npm:1.6.2":
-  version: 1.6.2
-  resolution: "semantic-release-slack-bot@npm:1.6.2"
+"semantic-release-slack-bot@npm:1.7.0":
+  version: 1.7.0
+  resolution: "semantic-release-slack-bot@npm:1.7.0"
   dependencies:
     "@semantic-release/error": ^2.2.0
     node-fetch: ^2.3.0
     slackify-markdown: ^1.1.1
   peerDependencies:
     semantic-release: ">=11.0.0 <18.0.0"
-  checksum: 339ae8d76dd7b471d925f08512e45635677d61d2e332d715903db7628f90a8a12bfc6fac853160002ff2fcffe405b95e2014ebb5c2591d04e536467d251cc155
+  checksum: 1d9f913900605551934ffbb64f701b5f31489d4e47eed45012e07e70fe6eeaa015bad6947e5cc31c1ec56da7d1099d2e3e259bfa7a19bf3b8d0c9bbba7fb6da9
   languageName: node
   linkType: hard
 
