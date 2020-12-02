@@ -1549,10 +1549,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:12.12.70":
-  version: 12.12.70
-  resolution: "@types/node@npm:12.12.70"
-  checksum: ef0ea535b8301d7d8f89d848bb7d5028bbd702d8d96b812100cba71829b460fc0d00cbbf296909254c49d0efe5a57dd37d40ba3abaca902dc170034e90f651a2
+"@types/node@npm:12.19.8":
+  version: 12.19.8
+  resolution: "@types/node@npm:12.19.8"
+  checksum: f1d21f9d5df94b6217491e3bc2a1c8ae5b1cf9d3dc78b8570ed5b3a4c7abf01a18b80f2588c9691b9405c43130a6fb76aedc4296b5934a0a41d7cc1b64c4eba4
   languageName: node
   linkType: hard
 
@@ -2960,7 +2960,7 @@ __metadata:
     "@nestjs/typeorm": 7.1.5
     "@semantic-release/exec": 5.0.0
     "@types/jest": 26.0.16
-    "@types/node": 12.12.70
+    "@types/node": 12.19.8
     "@types/supertest": 2.0.10
     "@typescript-eslint/eslint-plugin": 4.4.1
     "@typescript-eslint/parser": 4.4.1
